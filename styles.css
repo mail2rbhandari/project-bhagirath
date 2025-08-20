@@ -1,0 +1,137 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e5ec; /* Soft grey base for vibrancy */
+}
+
+.hero {
+    background: url('images/5.jpg') no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Darker overlay for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #28a745; /* Vibrant forest green */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #ff6f61; /* Coral for vibrant hover */
+}
+
+section {
+    padding: 4rem 0;
+    background: linear-gradient(180deg, #e0e5ec, #d3d9df); /* Greyish gradient */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #28a745; /* Green for vibrancy */
+}
+
+.summary-slider, .features-slider {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slide {
+    text-align: center;
+    padding: 1rem;
+    background: #d3d9df; /* Darker grey for slides */
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.slide h3 {
+    font-size: 1.5rem;
+    color: #28a745; /* Green headings */
+    margin-bottom: 0.5rem;
+}
+
+.slide p {
+    font-size: 1rem;
+    color: #343a40; /* Dark grey text for readability */
+}
+
+#features {
+    background: linear-gradient(180deg, #d3d9df, #e0e5ec); /* Reverse gradient for contrast */
+}
+
+#vision {
+    background: linear-gradient(rgba(40, 167, 69, 0.2), rgba(0, 123, 255, 0.2)), url('images/nanda-devi.jpg') no-repeat center/cover; /* Vibrant blue-green gradient */
+    text-align: center;
+}
+
+#vision p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 1rem;
+    color: #343a40;
+}
+
+.read-more {
+    color: #ff6f61; /* Coral for vibrant link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    color: #28a745; /* Green on hover */
+}
+
+footer {
+    background-color: #343a40; /* Darker grey footer */
+    color: white;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #28a745; /* Green links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ff6f61; /* Coral hover */
+}
+
+/* Slick Slider Adjustments */
+.slick-prev, .slick-next {
+    color: #28a745; /* Green arrows */
+    z-index: 1;
+}
+
+.slick-dots li button:before {
+    color: #28a745; /* Green dots */
+}
